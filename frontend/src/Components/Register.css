@@ -1,0 +1,13 @@
+h2{
+    color: red;
+  }
+  
+  form{
+    background-color:rgb(194, 196, 57);
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin-inline: 400px;
+    padding: 52px;
+    
+  }

@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logout {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .widget {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  a:hover {
+    color: red;
+    
+  }
+  
+  #profile-image{
+    height: 50px;
+    width: 50px;
+    border: 4px solid red;
+  }
+
+  #dynamic-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #dynamic-table th,
+  #dynamic-table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #dynamic-table th {
+    background-color: #f2f2f2;
+  }
+  
+  #dynamic-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #dynamic-table tr:hover {
+    background-color: #eaeaea;
+  }
+  
+  #dynamic-table button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #dynamic-table button:hover {
+    background-color: #45a049;
+  }
+  
